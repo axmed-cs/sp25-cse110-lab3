@@ -1,0 +1,31 @@
+* {
+  font-family: arial;
+  background-color: aliceblue;
+}
+img {
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+}
+video {
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
+}
+
+/* Title area and date */
+/* .title-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-area > h1 {
+  color: rgb(219, 21, 21);
+}
+#title-minutes {
+  color: #b03c62;
+}
+#title-date {
+  color: hsl(0, 100%, 25.1%);
+} */
