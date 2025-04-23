@@ -31,6 +31,7 @@ video {
   text-decoration: wavy underline lime;
 }
 
+/* navigation area */
 nav {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -45,6 +46,8 @@ nav > ul > li {
   margin-bottom: 6px;
 }
 
+
+/* Attendance section */
 #attendance {
   padding-left: 20px;
   padding-right: 20px;
@@ -64,4 +67,36 @@ nav > ul > li {
 }
 #attendance-names > p:hover {
   color: red;
+}
+
+a[href='#form'] {
+  color: red;
+}
+
+
+/* agenda section */
+#agenda h3 {
+  color: red;
+}
+#agenda h3:active {
+  color: green;
+}
+#agenda h3{ 
+  text-align: center;
+}
+
+h3, p {
+  font-size: 1.1 rem;
+  margin: auto;
+  padding: 5px 5px 5px 5px;
+}
+
+#relative-a {
+  font-size: 1.3em;
+}
+#relative-b {
+  font-size: 1.2em;
+}
+#relative-c {
+  font-size: 1.1em;
 }
