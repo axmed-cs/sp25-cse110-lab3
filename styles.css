@@ -123,3 +123,10 @@ h3, p {
   gap: 10px;
 }
 
+:root {
+  --color: #a72e2e;
+}
+
+#questions {
+  background-color: var(--color, red);
+}
