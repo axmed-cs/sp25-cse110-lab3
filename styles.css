@@ -100,3 +100,20 @@ h3, p {
 #relative-c {
   font-size: 1.1em;
 }
+
+#previous {
+  position: relative;
+}
+
+#previous > h3 {
+  position: absolute;
+  right: 50px;
+}
+
+#prev-a {
+  display: none;
+}
+#prev-b {
+  display: inline-block;
+}
+
