@@ -130,3 +130,21 @@ h3, p {
 #questions {
   background-color: var(--color, red);
 }
+
+@media (max-width: 600px) {
+  nav, p, h3, h4, li, ol, label {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  nav, p, h3, h4, li, ol, label {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  nav, p, h3, h4, li, ol, label {
+    font-size: 26px;
+  }
+}
